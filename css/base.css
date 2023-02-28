@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
@@ -295,6 +294,17 @@ main{
     .swiper-slide img {
         display: block;
       width: 100%;
-      height: 200px;
+      height: 130px;
+      zoom: 200%;
       object-fit: cover;
     }
+
+    .swiper-slide p {
+        font-family: "M PLUS Rounded 1c"; 
+        font-size: 10px;  
+    }
+
+.introduce_shop img{
+    width: 594px;
+
+}

@@ -1,0 +1,77 @@
+#header {
+    position: fixed;
+    display: flex; /* ヘッダー内のコンテンツを横並びにする */
+    width: 100%;
+    height: 60px;
+    top: 0;
+    background-color: #fff;
+  }
+
+main{
+    width: 594px;
+    margin: 0 auto;
+}
+  
+  #header h1{
+    margin: 10px auto;
+    font-family: 'Kaisei HarunoUmi', serif;
+  }
+  
+  #hamburgermenu {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* 要素のサイズ計算を容易にする */
+  #hamburgermenu,
+  #hamburgermenu * {
+    box-sizing: border-box;
+  }
+  
+  /* メニューアイコン */
+  .hamburgermenu__icon {
+    margin: 8px;
+  }
+  .hamburgermenu__icon:hover {
+    cursor: pointer; /* アイコンにマウスカーソルを合わせるとカーソルのアイコンを変える */
+  }
+  
+  /* ナビゲーション */
+  .hamburgermenu__nav {
+    position: fixed;
+    width: 300px;
+    max-width: 80%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 8px;
+    background-color: #fff;
+    overflow-y: auto; /* ナビゲーションが長い場合にスクロールできるようにする */
+    transition: 250ms; /* ナビゲーションのスライドイン/アウトにかける秒数 */
+    transform: translateX(-100%); /* 横幅と同じ分だけ左側に移動させる */
+    z-index: 2; /* ハンバーガーメニューの要素の中では一番上に表示されるようにする */
+  }
+  
+  #hamburgermenu.active .hamburgermenu__nav {
+    transform: translateX(0);
+  }
+  
+  /* マスク */
+  .hamburgermenu__mask {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #000a;
+      visibility: hidden;
+      z-index: 1;
+  }
+  #hamburgermenu.active .hamburgermenu__mask {
+      visibility: visible;
+  }
+
+img{
+    width: 594px;
+}

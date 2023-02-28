@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>部活紹介</title>
-    <link rel="stylesheet" href="C:\Users\w20185049\Projects\IKNS\css\club.css">
-    <link rel="stylesheet" href="C:\Users\w20185049\Projects\IKNS\css\icons.css"><!-- メニューアイコン用のアイコンフォント -->
+    <link rel="stylesheet" href="..\css\club.css">
+    <link rel="stylesheet" href="..\css\icons.css"><!-- メニューアイコン用のアイコンフォント -->
 </head>
 <body>
     <header id="header">
@@ -17,18 +17,21 @@
                 <ol>
                     <li><a href="base.html">Top page</a></li>
                         <!-- 初めのページの部活を選択できるところに戻る --> 
-                    <li><a href="sports.html">運動部</a></li>
-                    <li><a href="culture.html">文化部</a></li>
+                    <li><a href="#sport">運動部</a></li>
+                    <li><a href="#culture">文化部</a></li>
+                    <li><a href="course.html">コース紹介</a></li>
+
                 </ol>
             </nav>
             <div id="mask" class="hamburgermenu__mask"></div>
         </div>
-        <h1>文化部</h1>
+        <h1>部活紹介</h1>
     </header>
     <main>
         <div class="boxall">
-            <div class="box_club">
-                <div class="sample sample02"><a href="#"><div class="contain_box"><img src="..\img\eic.png"><p>EIC部</p></div></a></div>
+            <div class="box_club" >
+                <h2 id="culture">文化部</h2>
+                <a href="#"><div class="contain_box"><img src="..\img\eic.png"><p>EIC部</p></div></a>
                 <a href="#"><div class="contain_box"><img src="..\img\Engeki.png"><p>演劇部</p></div></a>
                 <a href="#"><div class="contain_box"><img src="..\img\gassyou.png"><p>音楽部(合唱班)</p></div></a>
                 <a href="#"><div class="contain_box"><img src="..\img\keion.png"><p>音楽部(軽音班)</p></div></a>
@@ -42,6 +45,16 @@
                 <a href="#"><div class="contain_box"><img src="..\img\housou.png"><p>放送部</p></div></a>
                 <a href="#"><div class="contain_box"><img src="..\img\cooking.png"><p>料理部</p></div></a>
                 <a href="#"><div class="contain_box"><img src="..\img\dance.png"><p>ダンス同好会</p></div></a>   
+            </div>
+
+            <div class="box_club">
+                <h2 id="sport">運動部</h2>
+                <a href="#"><div class="contain_box"><img src="..\img\tennis.png"><p>硬式テニス部</p></div></a>
+                <a href="#"><div class="contain_box"><img src="..\img\basketball.png"><p>バスケットボール部</p></div></a>
+                <a href="#"><div class="contain_box"><img src="..\img\volleyball.png"><p>バレーボール部</p></div></a>
+                <a href="#"><div class="contain_box"><img src="..\img\badminton.png"><p>バトミントン部</p></div></a>
+                <a href="#"><div class="contain_box"><img src="..\img\handball.png"><p>ハンドボール部</p></div></a>
+                <a href="#"><div class="contain_box"><img src="..\img\rikujou.png"><p>陸上競技部</p></div></a>
             </div>
         </div>        
     </main>
