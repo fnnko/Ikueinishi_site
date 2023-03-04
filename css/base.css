@@ -48,11 +48,12 @@ ul{
 /* 写真のスライドショー */
     .slider_fade {
         position: relative;
+        height: 240px;
     }
     
     .slider_fade > li {
         position: absolute;
-        top:0;
+        top:10px;
         right: 0;
         left: 0;
         bottom: 0;
@@ -62,7 +63,9 @@ ul{
     }
 
     .slider_fade img{
-        width: 50%;
+        width: 100%;
+        object-fit: cover;
+        height: 200px;
     }
     .slider_fade > li:nth-of-type(2) {
         animation-delay: 4s;
@@ -293,26 +296,6 @@ main{
   
 
 
-@media only screen and (max-width: 594px){
-.element img{
-    width:100%;
-    object-fit: cover;
-}
-
-.message{
-    width: 100%;
-}
-
-.message img{
-    height: 100px;
-    margin-bottom: 30px;
-}
-
-.contents{
-    width: 70%;
-    padding: 0 10px 10px;
-}
-}
 
 
     .swiper {
@@ -331,9 +314,14 @@ main{
       height: 100%;
     }
 
+    /* スライドの動き等速 */
+.swiper-wrapper {
+    transition-timing-function: linear;
+  }
+
     .swiper-slide img {
         display: block;
-      width: 100%;
+      width: 180px;
       height: 130px;
       zoom: 200%;
       object-fit: cover;
@@ -369,3 +357,78 @@ main{
     -8px 16px 1px #BDBDBD,
     -9px 18px 1px #E0E0E0;
 }
+
+
+@media screen and (max-width: 594px){
+
+    body{
+        margin: 0;
+    }
+    
+    .main_contents{
+        width:100vw;
+    }
+    
+    img{
+        width: 100%;
+    }
+
+    .introduce_shop img{
+        width: 100vw;
+    }
+          
+    
+    .element img{
+        width:100%;
+        object-fit: cover;
+    }
+    
+    .message{
+        width: 100vw;
+    }
+    
+    .message img{
+        height: 98px;
+        /* margin-bottom: 30px; */
+    }
+    
+    .contents{
+        width: 70%;
+        padding: 0 10px 10px;
+    }
+
+    .introduce_shop h1{
+        margin-top: 30px;
+        font-size:2em;
+      text-align:center;
+      line-height:0.95em;
+      font-weight:bold;
+      color: #A5D6A7;
+      text-shadow:
+        1px -1px 1px #BDBDBD,
+        -1px 2px 1px #737272,
+        -2px 4px 1px #767474,
+        -3px 6px 1px #787777,
+        -4px 8px 1px #424242,
+        -5px 10px 1px #616161,
+        -6px 12px 1px #757575,
+        -7px 14px 1px #9E9E9E,
+        -8px 16px 1px #BDBDBD,
+        -9px 18px 1px #E0E0E0;
+    }
+
+    .swiper{
+        height: 80vw;
+    }
+
+    .swiper-slide img{
+        width:25vw;
+        height: 10vh;
+    }
+
+    .message #photo{
+        height: 422px;
+    }
+
+    }
+    

@@ -85,11 +85,11 @@ var swiper = new Swiper(".mySwiper", {
 
   // 自動で動いてくれる↓
   spaceBetween: 30,
-  centeredSlides: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  // centeredSlides: true,
+  // autoplay: {
+  //   delay: 0,
+  //   disableOnInteraction: false,
+  // },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -97,6 +97,15 @@ var swiper = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+
+  loop: true, // ループ有効
+  slidesPerView: 2, // 一度に表示する枚数
+  speed: 4000, // ループの時間
+  allowTouchMove: false, // スワイプ無効
+  autoplay: {
+    delay: 0, // 途切れなくループ
+    // reverseDirection: true, // 逆方向有効化
   },
 
 

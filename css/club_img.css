@@ -7,6 +7,8 @@
     background-color: #fff;
   }
 
+
+
 main{
     width: 594px;
     margin: 0 auto;
@@ -80,4 +82,20 @@ main{
 
 img{
   width: 100%;
+}
+
+
+@media screen and (max-width: 594px){
+  body{
+    margin: 0;
+  }
+
+  main{
+    width:100vw;
+  }
+
+  img{
+    width: 100%;
+  }
+
 }
