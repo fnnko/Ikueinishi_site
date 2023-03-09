@@ -13,15 +13,6 @@ body{
    flex-direction: row; */
 }
 
-/* .splashPc{
-    width: 50%;
-} */
-
-/* .phoneSize{
-    width: 560px;
-    margin;:0 auto
-} */
-
 p{
     margin: 0;
     padding: 0;
@@ -156,16 +147,16 @@ main{
     /* position: absolute;
     top:0;
     left:0; */
-    width: 50%-297px;
-    background-color: #cbcbcb;
+    /* width: 50%-297px;
+    background-color: #cbcbcb; */
 }
 
 .sidebar_right{
     /* position: absolute;
     top:0;
     right:0; */
-    width: 50%-297px;
-    background-color: #cbcbcb;
+    /* width: 50%-297px;
+    background-color: #cbcbcb; */
 
 }
 
@@ -346,8 +337,14 @@ main{
 
 .course_img{
     display: flex;
+    width: 100%;
+    text-align: center;
+
     /* padding: 10px; */
-    width: 500px;
+}
+
+.course_img img{
+    width: 100%;
 }
 
 #left_radius{
@@ -368,10 +365,13 @@ main{
     height: 300px;
     width: 90%;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: #798092;
     padding: 20px;
     border-radius: 10px;
+}
+.school_life h1{
+    font-family: 'Kaisei HarunoUmi', serif;
 }
 
 
@@ -381,6 +381,7 @@ swiper-slide img{
     object-fit: cover;
     margin: 0 auto;
 }
+
 
 
 
@@ -425,6 +426,7 @@ swiper-slide img{
         margin: 0;
     }
     
+    
     .main_contents{
         width:100vw;
     }
@@ -449,8 +451,9 @@ swiper-slide img{
     
     .message img{
         height: 98px;
-        /* margin-bottom: 30px; */
+       /* margin-bottom: 30px; */
     }
+
     
     .contents{
         width: 70%;

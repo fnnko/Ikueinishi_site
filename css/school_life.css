@@ -72,8 +72,6 @@ body {
   }
 
   main{
-    margin: 2em auto;
-    padding:2em;
     width:594px;
     margin: 0 auto;
 
@@ -136,7 +134,7 @@ body {
     .school_structure a{
         text-decoration: none;
         color: #000;
-        font-size: 30px;
+        font-size: 25px;
         padding-top:10px ;
     }
 
@@ -178,6 +176,7 @@ body {
           height: 100px;
           object-fit: cover;
         }
+
       }
 
 
