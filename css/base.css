@@ -339,10 +339,15 @@ main{
 
 }
 
+.course_box{
+    width: 100%;
+    margin: 0 auto;
+}
+
 .course_img{
     display: flex;
-    flex-direction: row;
-    padding: 10px;
+    /* padding: 10px; */
+    width: 500px;
 }
 
 #left_radius{
@@ -360,22 +365,24 @@ main{
 }
 
 .school_life{
-    height: 400px;
+    height: 300px;
     width: 90%;
     text-align: center;
     margin: 0 auto;
+    background-color: #798092;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.school_life h1{
-    background-color: #3f4a3c;
-    padding: 10px;
-}
 
 swiper-slide img{
-    width: 100%;
+    width: 90%;
     height: 232px;
     object-fit: cover;
+    margin: 0 auto;
 }
+
+
 
 
 /*少しずらしたボックス*/
@@ -402,9 +409,17 @@ swiper-slide img{
         text-align: center;
 
     }
+    
+    footer{
+        height: 40px;
+        background-color: rgb(93, 90, 94);
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
 
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 594px){
 
     body{
         margin: 0;
@@ -457,12 +472,6 @@ swiper-slide img{
 
     .form{
         margin: 5%;
-    }
-
-    .school_life{
-        background-color: #707a6d;
-        height: 350px;
-        text-align: center;
     }
 
     }

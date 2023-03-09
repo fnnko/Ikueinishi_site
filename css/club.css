@@ -78,6 +78,14 @@ main{
     margin: 2em auto;
     padding:2em;
   }
+
+  footer{
+    height: 40px;
+    background-color: rgb(93, 90, 94);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
   
 
 /* swirerの要素 */

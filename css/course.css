@@ -82,6 +82,14 @@ img{
   width: 100%;
 }
 
+footer{
+  height: 40px;
+  background-color: rgb(93, 90, 94);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
 
 @media screen and (max-width: 594px){
   body{
