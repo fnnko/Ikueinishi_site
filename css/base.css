@@ -270,21 +270,6 @@ main{
     right: 0;
     font-family: 'Itim', cursive;;
 }
-
-.shop_list img{
-    width: 200px;
-    margin: 30px;
-}
-
-
-
-.c-container {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;
-    padding: 0 15px;
-  }
   
 
 
@@ -476,6 +461,21 @@ swiper-slide img{
     .form{
         margin: 5%;
     }
+
+    .school_life{
+        width:85%;
+    }
+
+    
+    #left_radius{
+        border-radius: 0;
+    }
+
+    #right_radius{
+        border-radius: 0;
+    }
+
+
 
     }
     
