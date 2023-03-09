@@ -110,3 +110,29 @@ var swiper = new Swiper(".mySwiper", {
 
 
 });
+
+var swiper = new Swiper(".mySwiper2", {
+
+// 無限ループ
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // 自動で動いてくれる↓
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+
+});
+

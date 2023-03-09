@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
     <link rel="stylesheet" href="../css/swiper-bundle.css" />
     <link rel="stylesheet" href="..\css\base.css">
@@ -46,31 +47,30 @@
                     <ul>
                         <li><a href="#">Top</a></li>
                         <li><a href="#club">Club activity</a></li>
-                        <li><a href="#bread">Shop</a></li>
-                        <li><a href="#event">Events</a></li>
-                        <li><a href="#course">course</a></li>
-
+                        <li><a href="#lunch_shop">Lunch/shop</a></li>
+                        <li><a href="#course">Course Gide</a></li>
+                        <li><a href="#school_life">School Life</a></li>
+                        <li><a href="#survey">Survey</a></li>
                     </ul>
                 </div>
                 <div class="club" id="club">
                     <h1>Club activity</h1>
                     <div class="culture">
                         <a href="club.htmlcd#culture">
-                            <img src="..\img\school_photo (7).jpeg">
+                            <img src="..\img\culture_photo.jpeg">
                             <p>文化部</p>
                         </a>
                     </div>
                     <div class="sport">
                         <a href="club.html#sport">
-                            <img src="..\img\school_photo (6).jpeg">
+                            <img src="..\img\sport_photo.jpeg">
                             <p>運動部</p>
                         </a>
                     </div>
 
                 </div>
-                <div class="introduce_shop" id="bread">
-                    <h1>お昼ご飯・購買部紹介</h1z>
-                    <img src="..\img\School Festival.png">
+                <div class="introduce_shop" id="lunch_shop">
+                    <img src="..\img\lunch_introduce.png">
                 </div>
     
                 <div class="shop">
@@ -94,26 +94,47 @@
                     </div>
                 </div>
 
-                <div class="event" id="event">
-                    <div class="cultureFestival">
-                        <img src="#">
-                        <p></p>
-                    </div>
-                    <div class="sportFestival">
-                        <img src="#">
-                        <p></p>
+                <div class="course_box" id="course">
+                    <h1>Course Guide</h1>
+                    <div class="course_img">
+                        <a href="rits.html"><img id="left_radius" src="../img/rits_int.jpeg"></a>
+                        <a href="tokusetsu.html"><img id="right_radius" src="../img/specialplace_int.jpeg"></a>
                     </div>
                 </div>
-                <div class="course_box" id="course">
-                    <a href="rits.html"><img src="#">立命館コース</a>
-                    <a href="tokusetsu.html"><img src="#">特設コース</a>
 
+                <div class="school_life" id="school_life">
+                    <h1>School life</h1>
+                    <swiper-container class="mySwiper2" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+                    loop="true">                      
+                        <swiper-slide><a href=""><img src="../img/school_int_library.jpeg"></a></swiper-slide>
+                        <swiper-slide><a href=""><img src="../img/school_int_lmc.jpeg"></a></swiper-slide>
+                        <swiper-slide><a href=""><img src="../img/school_int_sportclub.jpeg"></a></swiper-slide>
+                        <swiper-slide><a href=""><img src="../img/school_int_teacher.jpeg"></a></swiper-slide>
+                        <swiper-slide><a href=""><img src="../img/school_int_lmc.jpeg"></a></swiper-slide>
+                        <swiper-slide><a href=""><img src="../img/school_int_lmc.jpeg"></a></swiper-slide>
+                        <swiper-slide><a href=""><img src="../img/school_int_lmc.jpeg"></a></swiper-slide>
+                        <swiper-slide><a href=""><img src="../img/school_int_lmc.jpeg"></a></swiper-slide>
+                        <swiper-slide><a href=""><img src="../img/school_int_lmc.jpeg"></a></swiper-slide>
+                      </swiper-container>
+                </div>
+
+
+                <div class="form" id="survey">
+                    <h2><i class="far fa-file-alt"></i>アンケートform</h2>
+                    <div class="form_url">
+                        <p>
+                            ホームページをご覧いただきありがとうございます。
+                            ホームページの感想を頂けたら幸いです。
+                        </p>
+                        <a href="https://forms.gle/hffpL7WH8tccwfrd8" target="_blank">アンケート解答フォームはこちら</a>
+                    </div>
                 </div>
             </div>
             
             <div class="sidebar_right">
                 <!-- <img src="https://livedoor.blogimg.jp/fantasyisland/imgs/b/4/b42adb97.gif"> -->
             </div>
+            
         </main>
     </div>
     <div class="pc">
@@ -121,8 +142,7 @@
     </div>
     
 
-    
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script src="../js/school_life.js"></script>
     <script src="../js/swiper-bundle.min.js"></script>
     <script src="..\js\base.js"></script>
 </body>
