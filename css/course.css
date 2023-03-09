@@ -7,6 +7,11 @@
     background-color: #fff;
   }
 
+main{
+    width: 594px;
+    margin: 0 auto;
+}
+  
   #header h1{
     margin: 10px auto;
     font-family: 'Kaisei HarunoUmi', serif;
@@ -71,19 +76,20 @@ main{
   background-color: rgb(226, 226, 226);
   width: 594px;
   margin: 0 auto;
+  margin-top: 90px;
 }
 
 img{
   width: 100%;
 }
 
-footer{
-  height: 40px;
-  background-color: rgb(93, 90, 94);
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
+    footer{
+        height: 40px;
+        background-color: rgb(93, 90, 94);
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
 
 
 @media screen and (max-width: 594px){
