@@ -177,6 +177,16 @@ body {
           object-fit: cover;
         }
 
+        .int_box{
+          display: flex;
+          flex-direction: column;
+        }
+
+        .int_box img{
+          width: 60%;
+
+        }
+
       }
 
 
