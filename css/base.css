@@ -404,6 +404,10 @@ swiper-slide img{
         padding: 10px;
     }
 
+    #intoroduce{
+        text-align: center;
+    }
+
 
 @media screen and (max-width: 594px){
 
